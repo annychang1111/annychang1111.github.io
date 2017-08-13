@@ -1,24 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 
 body {
-	font-family: "Open+Sans", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	padding-top: 8vh;
 	padding-left: 15vw;
 	padding-right: 15vw;
-	/*height: 100vh;*/
-	/*border: 3px solid black;*/
 }
 
 header {
 	width: 100%;
-	/*border: 3px solid black;*/
 }
 
 
 header nav {
 	position: relative;
 	width: 50%;
-	/*border: 3px solid black;*/
 }
 
 header nav ul {
@@ -37,14 +33,12 @@ header nav ul li a {
 	text-decoration: none;
 	color: black;
 	font-size: 1em;
-	font-weight: 300;
+	font-weight: 400;
 
 }
 
 header nav ul li a.active {
-    //font-weight: 600;
     text-decoration: underline;
-
 }
 
 
@@ -57,8 +51,6 @@ header nav ul li a:hover {
 #page {
 	min-height: 100%;
 	position: relative;
-	/*height: 90%;*/
-	/*border: 3px solid black;*/
 }
 
 
@@ -72,44 +64,45 @@ header nav ul li a:hover {
 #header-main {
 	float: right;
 	padding-top: 0px;
-	/*border: 3px solid black;*/
 }
 
 
 #index-content {
 	padding-top: 5vh;
 	height: 65vh;
-	/*padding-bottom: 420px;*/
-	/*border: 3px solid black;*/
-
 }
 
 #selected_works {
 	float: left;
 	width: 65%;
-	/*height: 100%;*/
-	/*border: 3px solid black;*/
 }
 
 #banner img {
 	padding-top: 10px;
 	width: 98%;
-	/*border: 3px solid black;*/
 }
 
 #banner a {
 	text-decoration: none;
 	color: black;
 	font-weight: 600;
+	font-size: 1em;
+	/*font-style: italic;*/
+}
+
+#banner img:hover {
+	box-shadow: 1px 2px 0px 2px #cccccc;
+}
+
+#banner a:hover {
+	/*text-decoration: underline;*/
 	font-style: italic;
 }
 
 #about {
 	float: right;
 	width: 27%;
-	/*height: 100%;*/
 	display: block;
-	/*border: 3px solid black;*/
 }
 
 #about p {
@@ -117,12 +110,12 @@ header nav ul li a:hover {
 }
 
 #index-h1 {
-	font-size: 1em;
+	font-size: 1.1em;
 	font-weight: 600;
 }
 
-#cv-h1 {
-	font-size: 1.2em;
+#cv-h1{
+	font-size: 1.1em;
 	font-weight: 600;
 }
 
@@ -140,26 +133,26 @@ header nav ul li a:hover {
 	padding-top: 5vh;
 	height: 70vh;
 	margin-bottom: 5%;
-	/*padding-bottom: 420px;*/
-	/*border: 3px solid black;*/
+	font-size: 0.9em;
+	font-weight: 300;
 }
+
 
 #cv-left-column {
 	float: left;
 	width: 50%;
-	/*height: 100%;*/
 }
 
 #cv-right-column {
 	float: right;
 	width: 50%;
-	/*height: 100%;*/
 	text-align: left;
 }
 
+
+
+
 #work-content {
-	/*padding-top: 30px;*/
-	/*padding-bottom: 410px;*/
 	padding-top: 5vh;
 	height: 65vh;
 }
@@ -191,7 +184,7 @@ header nav ul li a:hover {
 	display: block;
 	color: black;
 	font-size: 1em;
-	font-weight: 300;
+	font-weight: 400;
 
 }
 
@@ -258,6 +251,10 @@ header nav ul li a:hover {
 	color: white;
 }
 
+#right-side a:hover {
+	font-size: 1.2em;
+}
+
 #up-box {
 	padding-bottom: 10px;
 	text-align: justify;
@@ -287,9 +284,6 @@ header nav ul li a:hover {
 #project-pics {
 	float: right;
 	width: 85%;
-	/*display: flex;*/
-	/*margin-left: 10px;*/
-	/*border: 1px solid black;*/
 }
 
 #project-pics table {
@@ -322,12 +316,10 @@ header nav ul li a:hover {
 }
 
 #project-pics .mySlides {
-	//display:none;
 }
 
 
 #project-pics .demo { 
-	//cursor:pointer;
 }
 
 #hobby-content {
@@ -337,7 +329,6 @@ header nav ul li a:hover {
 }
 
 #hobby-content td {
-	/*padding-left: 12px;*/
 	vertical-align: top;
 }
 
@@ -345,9 +336,6 @@ header nav ul li a:hover {
 	padding-right: 2%;
 }
 
-/*#lettering {
-	padding-bottom: 2%;
-}*/
 
 #photography-content {
 	padding-top: 5vh;
@@ -370,7 +358,7 @@ header nav ul li a:hover {
 }
 
 .bold {
-	font-weight: 600;
+	font-weight: 400;
 }
 
 footer {
@@ -435,6 +423,7 @@ footer {
     font-style: italic;
     font-weight: 300;
     font-size: 2vw;
+    font-weight: 600;
 }
 
 #lettering .container {
@@ -475,6 +464,7 @@ footer {
     font-style: italic;
     font-weight: 300;
     font-size: 2vw;
+    font-weight: 600;
 }
 
 #drawing .container {
@@ -515,6 +505,7 @@ footer {
     font-style: italic;
     font-weight: 300;
     font-size: 2vw;
+    font-weight: 600;
 }
 
 /*hobby hover*/
@@ -586,7 +577,7 @@ footer {
 	display: block;
 	color: black;
 	font-size: 1em;
-	font-weight: 300;
+	font-weight: 400;
 
 }
 
