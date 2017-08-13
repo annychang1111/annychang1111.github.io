@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Yi Hsin Chang | Designer</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+	</head>
+	<body>
+		<div id="page">
+			<header>
+				<div id="header-main">
+					<a href="index.html"><img src="image/logo.png" width="250px"></a>
+				</div>
+				<nav>
+					<ul>
+						<li><a class="active" href="index.html">Home</a></li>
+						<li><a href="cv.html">CV</a></li>
+						<li><a href="work.html">Works</a></li>
+						<li><a href="hobby.html">Hobby</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div id="index-content">
+				<div id="selected_works">
+					<h1 id="index-h1">Selected Works</h1>
+					<div id="banner">
+						<div class="w3-content w3-display-container">
+							<div class="w3-display-container mySlides" id="1">
+								<a href="the_dark_world.html">
+									<img src="image/the_dark_world_banner.jpg" width="600">
+									<div class="w3-display-bottomleft w3-large w3-container w3-padding-15 w3-black">
+		    						The Dark World
+		  							</div>
+								</a>
+							</div>
+							<div class="w3-display-container mySlides">
+								<a href="mannequin.html">
+									<img src="image/mannequin_banner.jpg" width="600">
+									<div class="w3-display-bottomleft w3-large w3-container w3-padding-15 w3-black">
+		    						Intimate Cycle
+		  							</div>
+								</a>
+							</div>
+							<div class="w3-display-container mySlides">
+								<a href="mf.html">
+									<img src="image/mf_banner.jpg" width="600">
+									<div class="w3-display-bottomleft w3-large w3-container w3-padding-15 w3-black">
+		    						NCCU Music Festival Logo Motion Graphic
+		  							</div>
+								</a>
+							</div>
+							<div class="w3-display-container mySlides">	
+								<a href="fun_taipei.html">
+									<img src="image/fun_taipei_banner.jpg" width="600">
+									<div class="w3-display-bottomleft w3-large w3-container w3-padding-15 w3-black">
+		    						Fun Taipei
+		  							</div>
+								</a>
+							</div>
+							<div class="w3-display-container mySlides">	
+								<a href="jungle.html">
+									<img src="image/jungle_banner.jpg" width="600">
+									<div class="w3-display-bottomleft w3-large w3-container w3-padding-15 w3-black">
+		    						Welcome to the Jungle
+		  							</div>
+								</a>
+							</div>
+						</div>
+						<!-- <div id="button">
+							<a href="#1"></a>
+						</div> -->
+					</div>
+				</div>
+				<div id="about">
+					<h1 id="index-h1">About</h1>
+					<div id="index-about">
+						I am a designer, a programmer and an artist. 
+						Now living in New York and studying in MFADT in Parsons. 
+						Focusing on UI/UX design and interaction design. 
+						Like new media art and making interactive installations. 
+						<br>
+						Email : changyihsin.anny@gmail.com<br>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="foot">
+			<p>
+				© YI HSIN CHANG
+			</p>
+		</footer>
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+			    var i;
+			    var x = document.getElementsByClassName("mySlides");
+			    for (i = 0; i < x.length; i++) {
+			       x[i].style.display = "none";  
+			    }
+			    myIndex++;
+			    if (myIndex > x.length) {myIndex = 1}    
+			    x[myIndex-1].style.display = "block";  
+			    setTimeout(carousel, 2000); // Change image every 2 seconds
+			}
+		</script>
+	</body>
+	
+	
+
+</html>
